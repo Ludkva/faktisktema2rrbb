@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto'
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    max-width: 100vw;
+    background-color: antiquewhite;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    min-height: 3rem;
+    background-color: black;
+    color: antiquewhite;
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 2rem;
+    border-bottom: 1px solid antiquewhite;
+    
+}
+
+article {
+    /* Glyphbox med Fontnavn og designer */
+    background-color: antiquewhite;
+    border: 2px solid black;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 8px;
+    font-weight: 100;
+}
+
+ul {
+    margin: 0;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.menu li a {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: .8rem;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+
+}
+
+.menu :first-child{
+    float: left;
+}
+
+.fa-home{
+    color:antiquewhite;
+    font-size: 2rem;
+    left: 0;
+}
+
+main {
+    float: right;
+    margin: 0 auto;
+    right: 0;
+    width: 49vw;
+}
+
+
+.roboto {
+    background-image: url(../img-kopi/roboto_bg_ak.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    min-width: 49vw;
+    font-family: 'Roboto';
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-left: .5vw;
+
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+section h1,
+h2 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+section h3 {
+    font-weight: 100;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+#roboto,
+#styles,
+#chars,
+#ligatures {
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin: 0 auto;
+
+}
+
+#roboto {
+    margin: 0 auto;
+    width: 30vw;
+    height: 95vh;
+
+}
+
+.italic {
+    font-style: italic;
+}
+
+.thin {
+    font-weight: 100;
+}
+.light{
+    font-weight: 300;
+}
+.medium{
+    font-weight: 500;
+}
+.bold{
+    font-weight: 700;
+}
+
+@media (max-width:1100px){
+
+    section .roboto {
+        position: unset;
+    }
+
+
+
+
+}

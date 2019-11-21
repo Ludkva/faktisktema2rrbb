@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Comfortaa'
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    max-width: 100vw;
+    background-color: antiquewhite;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    min-height: 3rem;
+    background-color: black;
+    color: antiquewhite;
+    text-align: right;
+    font-family: 'Comfortaa';
+    font-size: 2rem;
+    border-bottom: 1px solid antiquewhite;
+}
+article {
+    /* Glyphbox med Fontnavn og designer */
+    background-color: antiquewhite;
+    color: Black;
+    border: 2px solid black;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 8px;
+    font-weight: 100;
+    
+}
+ul {
+    margin: 0;
+}
+
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.menu li a {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: .8rem;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+
+}
+
+.menu :first-child{
+    float: left;
+}
+.fa-home{
+    color:antiquewhite;
+    font-size: 2rem;
+    left: 0;
+}
+
+main{
+    width: 49vw;
+    height: 100vh;
+    left:0;
+    margin-top: 5vh;
+}
+
+.comfortaa{
+    background-image: url(../img-kopi/Comfortaa_bg_ak.png);
+    background-size: cover;    
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 49vw;
+    font-family: 'Comfortaa';
+    position: fixed;
+    right:0;
+    top:0;
+    margin-right: .5vw;
+}
+
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+section h1,
+h2 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+section h3 {
+    font-weight: 100;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+#comfortaa,#styles,
+#chars,
+#ligatures {
+    height: 100vh;
+    width: 49vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin: 0 auto;
+    left: 0;
+
+}
+#comfortaa {
+    width: 30vw;
+}
+
+
+.italic {
+    font-style: italic;
+}
+
+.thin {
+    font-weight: 100;
+}
+.light{
+    font-weight: 300;
+}
+.medium{
+    font-weight: 500;
+}
+.bold{
+    font-weight: 700;
+}

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 3rem;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    border-bottom: 1px solid antiquewhite;
+    
+}
+
+main {
+    display: flex;
+    background: black;
+}
+
+section {
+    display: flex;
+    min-width: 49vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+article {
+    background-color: black;
+    border: 2px solid antiquewhite;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 8px;
+    font-weight: 100;
+    
+}
+section a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+section h1, h2 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    justify-content: center;    
+}
+
+section h3 {
+    font-weight: 100;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.roboto {
+    background-image: url(../img-kopi/roboto_bg.png);
+    background-position: center;
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 1px solid antiquewhite;
+    font-family: 'Roboto';
+    margin-left: .5vw;
+
+}
+
+.comfortaa{
+    background-image: url(../img-kopi/test2.png);
+    background-position: left top;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa';
+    width: 55rem;
+}
+
+@media (max-width:600px){
+   article h1 {
+        font-size: 5rem;
+        padding-bottom: 0;
+    }
+   article h2{
+    visibility: hidden;
+}
+article h3 {
+    visibility: hidden;
+}
+
+}
